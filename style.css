@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap");
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #ADB5BD;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #ADB5BD;
+  opacity: 1;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ADB5BD;
+  opacity: 1;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ADB5BD;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ADB5BD;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+  color: #ADB5BD;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.conteiner {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Onest", sans-serif;
+}
+
+body {
+  background-color: #F8F9FA;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+nav {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.125rem;
+}
+
+.nav__main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__main .nav__main__menu {
+  display: flex;
+  gap: 1.25rem;
+  font-weight: 400;
+}
+.nav__main .nav__main__menu li {
+  list-style: none;
+}
+.nav__main .nav__main__logo {
+  margin: auto 0;
+}
+.nav__main .nav__main_contact {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  align-items: center;
+}
+.nav__main .nav__main_contact .contact__button {
+  outline: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  border: 1px solid #212529;
+}
+
+.nav__utility {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+}
+.nav__utility .nav__utility_extend_menu {
+  cursor: pointer;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  background-color: #212529;
+  color: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+}
+.nav__utility .nav__utility_extend_menu .extend_button__text {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.nav__utility .nav__utility_extend_menu .burger__menu_logo {
+  height: 24px;
+}
+.nav__utility .business_menu_nav {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  font-size: 1.125rem;
+  color: #212529;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.nav__utility .business_menu_nav li {
+  list-style: none;
+}
+.nav__utility .nav__utility_search {
+  display: flex;
+  flex-direction: row;
+  gap: 0.625rem;
+  padding: 16px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+  flex-grow: 1;
+}
+.nav__utility .nav__utility_search .search__logo {
+  height: 24px;
+}
+.nav__utility .nav__utility_search .search__field input {
+  font-weight: 500;
+  font-size: 1rem;
+  outline: none;
+  border: 0;
+}
+.nav__utility .shop__atributes {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4375rem;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 13px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  align-items: center;
+}
+.nav__utility .shop__atributes .metric-item {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+.nav__utility .shop__atributes .metric-item .item__logo {
+  height: 24px;
+}
+
+content {
+  display: block;
+  margin-top: 2.5rem;
+  flex-grow: 1;
+}
+
+.banner__block {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 550px;
+  border-radius: 20px;
+  background: url("static/wrap.png");
+  background-color: rgba(33, 37, 41, 0.3);
+  background-blend-mode: color-burn;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.banner__block .banner_heading {
+  width: 51.25rem;
+  text-wrap: wrap;
+  color: #ffffff;
+  font-size: 3.125rem;
+  line-height: 55px;
+}
+.banner__block .product__info {
+  width: 27.875rem;
+  text-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+  color: #ffffff;
+  font-size: 1.5625rem;
+  font-weight: 500;
+}
+
+.black-box__info {
+  background-color: #212529;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem;
+  padding-right: 6.25rem;
+  margin-top: 1.25rem;
+  color: #ffffff;
+  font-size: 1.5625rem;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.black-box__info .suggest__block {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+  line-height: 27.5px;
+}
+.black-box__info .suggest__block .suggest__text {
+  width: 25.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
