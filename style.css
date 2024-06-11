@@ -83,6 +83,7 @@ nav {
   align-items: center;
 }
 .nav__main .nav__main_contact .contact__button {
+  cursor: pointer;
   outline: none;
   padding: 7px 10px;
   border-radius: 5px;
@@ -275,6 +276,44 @@ content {
   font-weight: 500;
   line-height: 55px;
   margin-top: 5rem;
+}
+
+.brand-list-block {
+  display: flex;
+  flex-direction: row;
+  gap: 7.5rem;
+  margin-left: 2.5rem;
+  margin-top: 2.5rem;
+}
+.brand-list-block .brand-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.brand-list-block .brand-item .brand__title {
+  text-align: center;
+  font-size: 1.5625rem;
+  font-weight: 500;
+}
+.brand-list-block .brand-item .brand__image {
+  width: 11.25rem;
+  height: 11.25rem;
+}
+.brand-list-block .brand-item .brand__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50% 50%;
+}
+
+#second_banner {
+  background: url("static/banner2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(33, 37, 41, 0.3);
+  background-blend-mode: color-burn;
+  margin-top: 3.75rem;
 }
 
 /*# sourceMappingURL=style.css.map */
