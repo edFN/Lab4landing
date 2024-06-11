@@ -270,4 +270,11 @@ content {
   background-size: cover;
 }
 
+.section__header {
+  font-size: 3.125rem;
+  font-weight: 500;
+  line-height: 55px;
+  margin-top: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
